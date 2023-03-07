@@ -50,8 +50,7 @@ class MaskedTextController extends TextEditingController {
 
   void moveCursorToEnd() {
     var text = _lastUpdatedText;
-    selection =
-        TextSelection.fromPosition(TextPosition(offset: (text ?? '').length));
+    selection = TextSelection.fromPosition(TextPosition(offset: (text).length));
   }
 
   @override

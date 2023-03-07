@@ -1,8 +1,8 @@
 name: jack_general
 description: General modified packages
 version: 0.0.1
-homepage:
 publish_to: none
+homepage:
 
 environment:
     sdk: ">=2.18.2 <3.0.0"

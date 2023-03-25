@@ -50,11 +50,12 @@ class JackEncryptData {
   }
 
   /// for AES Decrypt Algorithms
-  String decryptAES(Encrypted encrypted) {
+  String decryptAES(String base64String) {
     final key = Key.fromUtf8(securekey);
     final iv = IV.fromLength(16);
     final encrypter = Encrypter(AES(key));
-    final decrypted = encrypter.decrypt(encrypted, iv: iv);
+    final decrypted =
+        encrypter.decrypt(Encrypted(base64.decode(base64String)), iv: iv);
     return decrypted;
   }
 
@@ -97,7 +98,7 @@ class JackEncryptData {
   ///  print(decrypt);   // this is decrypted value
   ///
   /// ```
-  String decryptFernet(Encrypted encrypted) {
+  String decryptFernet(String base64String) {
     final key = Key.fromUtf8(securekey);
     // final iv = IV.fromLength(16);
 
@@ -106,7 +107,8 @@ class JackEncryptData {
     final b64key = Key.fromUtf8(base64Url.encode(key.bytes));
     final fernet = Fernet(key);
     final encrypter = Encrypter(fernet);
-    final fernetDecrypted = encrypter.decrypt(encrypted);
+    final fernetDecrypted =
+        encrypter.decrypt(Encrypted(base64.decode(base64String)));
     return fernetDecrypted;
   }
 }

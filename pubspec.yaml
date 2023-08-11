@@ -20,7 +20,7 @@ dependencies:
     # uuid
     uuid: ^3.0.6
     # information of the package
-    package_info_plus: ^3.0.1
+    package_info_plus: ^4.1.0
     # To compare version string easily
     pub_semver: ^2.1.2
     # Network Checking

@@ -14,7 +14,7 @@ dependencies:
 
     rxdart: ^0.27.5
     # dio http library
-    dio: ^4.0.6
+    # dio: ^4.0.6
     # file to save in device path
     path_provider: ^2.0.11
     # uuid

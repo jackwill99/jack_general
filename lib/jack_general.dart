@@ -7,6 +7,7 @@ export 'ui/dialog/jack_dialog.dart';
 export 'ui/dialog/jack_dialog_morphism.dart';
 export 'ui/loading/loading.dart';
 export 'ui/page_transition/pageTransition.dart';
+export 'core_system/location/geo_location.dart';
 // export 'z_general/api.dart';
 export 'z_general/currency_format.dart';
 export 'z_general/download_file.dart';

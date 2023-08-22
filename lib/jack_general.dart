@@ -20,3 +20,4 @@ export 'security/encrypt_decrypt/encrypt_decrypt.dart';
 export 'security/encrypt_decrypt/cryptojs_encrypt_decrypt.dart';
 export 'security/credit_card/card_utilis.dart';
 export 'security/credit_card/card_type.dart';
+export 'security/ntp/ntp.dart';

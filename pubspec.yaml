@@ -30,11 +30,11 @@ dependencies:
     tuple: ^2.0.1
     crypto: ^3.0.2
     # Secure Storage For AccInfo
-    flutter_secure_storage: ^6.0.0
+    flutter_secure_storage: ^8.0.0
     # to launcher another application
     url_launcher: ^6.1.6
     # internationalization
-    intl: ^0.17.0
+    intl: ^0.18.1
     dio: ^5.2.1+1
     # responsive
     flutter_screenutil: ^5.6.0

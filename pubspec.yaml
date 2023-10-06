@@ -18,7 +18,7 @@ dependencies:
     # file to save in device path
     path_provider: ^2.0.11
     # uuid
-    uuid: ^3.0.6
+    uuid: ^4.0.0
     # information of the package
     package_info_plus: ^4.1.0
     # To compare version string easily

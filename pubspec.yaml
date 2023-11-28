@@ -24,7 +24,7 @@ dependencies:
     # To compare version string easily
     pub_semver: ^2.1.2
     # Network Checking
-    connectivity_plus: ^4.0.1
+    connectivity_plus: ^5.0.2
     # encryption and decryption
     encrypt: ^5.0.1
     tuple: ^2.0.1
